@@ -1,6 +1,6 @@
 # unab-pandas
 
-"""
+``` python
 pd.DataFrame(data,
              x,
              y,
@@ -174,4 +174,4 @@ backend:  str, predeterminado None.
           Backend a utilizar en lugar del backend especificado en la opción plotting.backend.
           Por ejemplo, 'matplotlib'. Alternativamente, para especificar el backend de trazado para toda la sesión, establezca pd.options.plotting.backend.
 
-"""
+```
