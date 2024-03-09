@@ -175,3 +175,14 @@ backend:  str, predeterminado None.
           Por ejemplo, 'matplotlib'. Alternativamente, para especificar el backend de trazado para toda la sesión, establezca pd.options.plotting.backend.
 
 ```
+
+
+## Importar Libreris en colab
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+from google.colab import drive
+
+drive.mount('/content/drive')
+```
